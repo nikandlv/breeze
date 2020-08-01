@@ -1,0 +1,24 @@
+{
+  "name": "breeze",
+  "version": "1.0.0",
+  "description": "Last library boilerplate you need for react js and typescript",
+  "main": "index.js",
+  "author": "Nikan Dalvand",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-multi-entry": "^3.0.1",
+    "@rollup/plugin-typescript": "^5.0.2",
+    "@types/react": "^16.9.43",
+    "rollup": "^2.23.0",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "build": "rollup -c ./config/rollup.config.js"
+  }
+}
